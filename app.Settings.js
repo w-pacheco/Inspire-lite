@@ -29,7 +29,7 @@ export const NavbarExpand = false;
 export const Icon = 'code-slash';
 
 /** Application Name; */
-export const Name = 'Template (Lite)';
+export const Name = 'Inspire (Lite)';
 
 /** Application Settings; */
 export const ApplicationSettings = {

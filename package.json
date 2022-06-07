@@ -4,7 +4,8 @@
   "description": "Inspire is a JavaScript framework used to create single page applications hosted on Microsoft SharePoint (2010-2013) site collections. This version is a stripped implementation, isolating the core of the framework which takes advantage of Google's V8 engine. This template provides a starting point for developing a single page application on SharePoint, and defines the suggested directory structure for the framework.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./servers/live-server.cjs --cors --watch=./ --open=./app.html"
   },
   "repository": {
     "type": "git",

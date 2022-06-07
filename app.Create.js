@@ -16,6 +16,7 @@ import Application from "./src/Models/Application.js"
  * development starts to prevent errors.
  */
 import SharepointApi from "./src/Libraries/SharepointApi_v2/src/App.js";
+import { isDevMode } from "./app.Settings.js";
 
 var USER = null;
 
@@ -30,7 +31,10 @@ export default async function CreateApp(properties, Options, Route){
     });
 
     // **** Note: This is a SharepointWeb Object;
-    const SiteData = await Route.init(Options).catch(data => null);
+    const SiteData = isDevMode ? 
+    null : 
+    await Route.init(Options).catch(data => null);
+    
     USER = SiteData?.CurrentUser;
     properties.Web = SiteData;
     
@@ -42,7 +46,7 @@ export default async function CreateApp(properties, Options, Route){
      */
     document.User = USER;
     document.Title = Name;
-    document.SiteId = SiteData.Id;
+    document.SiteId = SiteData?.Id;
     /** Start Render DOM; */
 
     // This is where you would call your method to add elements on the DOM;

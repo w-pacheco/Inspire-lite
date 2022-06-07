@@ -93,7 +93,8 @@ export default function SharepointApi(Options){
         return Route.Get(Url, options)
         .catch(response => {
             const { status, statusText } = response;
-            console.info(`Sharepoint Api Error! | ${status} | ${statusText}`)
+            console.info(`Sharepoint Api Error! | ${status} | ${statusText}`);
+            return response;
         })
         .then(data => Object.assign(data, WebTools));
     }
