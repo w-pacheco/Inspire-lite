@@ -40,5 +40,6 @@ export default function Application(properties, Route, USER){
     this.Web = Web;
    
     this.Settings = new Object();
+
     return this;
 }
