@@ -1,12 +1,12 @@
 Inspire
 =======
 
-Inspire is a JavaScript framework used to create single page applications hosted on Microsoft SharePoint (2010-2013) site collections. This version is a stripped implementation, isolating the core of the framework which takes advantage of Google's V8 engine. This template provides a starting point for developing a single page application on SharePoint, and defines the suggested directory structure for the framework.
+Inspire is a JavaScript framework used to create single page applications hosted on Microsoft SharePoint (2010-2013) site collections. This version is a stripped implementation, isolating the core of the framework which takes advantage of Google's V8 engine. This template provides a starting point for developing a single page application on SharePoint, and defines the suggested directory structure for the framework. Inspire creates a firm foundation for developers trying to escape SharePoint's webpart implementation, and take full control of any project hosted on a SharePoint site collection.
 
 <!-- Defy
 ====
 
-Defy is a JavaScript framework used to create single page applications hosted on Microsoft SharePoint (2010-2013) site collections. This version is a stripped implementation, isolating the core of the framework which takes advantage of Google's V8 engine. This template provides a starting point for developing a single page application on SharePoint, and defines the suggested directory structure for the framework. Defy creates a firm foundation to make what seems almost impossible, possible for developers. -->
+Defy is a JavaScript framework used to create single page applications hosted on Microsoft SharePoint (2010-2013) site collections. This version is a stripped implementation, isolating the core of the framework which takes advantage of Google's V8 engine. This template provides a starting point for developing a single page application on SharePoint, and defines the suggested directory structure for the framework. Defy creates a firm foundation for developers trying to escape SharePoint's webpart implementation, and take full control of any project hosted on a SharePoint site collection. -->
 
 Version: 1.22.0601   
 Author: Wilfredo Pacheco  
